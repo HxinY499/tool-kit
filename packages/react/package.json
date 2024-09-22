@@ -1,0 +1,27 @@
+{
+  "name": "@tool-kit/react",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "keywords": [
+    "react",
+    "hooks",
+    "utils"
+  ],
+  "author": "HxinY <838195242@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/react.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@tool-kit/react.test.js"
+  }
+}
