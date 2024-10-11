@@ -14,10 +14,10 @@ export default function promiseWithTimeout<T>(
 
   return Promise.race([promise, timeoutPromise])
     .then(result => result)
-    .catch(error => {
+    .catch(reason => {
       if (timeoutId !== null) {
         clearTimeout(timeoutId);
       }
-      throw error;
+      throw reason;
     });
 }
